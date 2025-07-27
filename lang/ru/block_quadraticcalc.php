@@ -20,4 +20,4 @@ $string['placeholdera'] = 'введите значение a...';
 $string['placeholderb'] = 'введите значение b...';
 $string['placeholderc'] = 'введите значение c...';
 $string['mustbenumber'] = 'Это поле должно быть числом';
-$string['acantbezero'] = 'Значение a не может быть рано 0.';
+$string['acantbezero'] = 'Значение a не может быть равно 0.';
