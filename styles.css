@@ -1,0 +1,87 @@
+.block_quadraticcalc {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.block_quadraticcalc h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.block_quadraticcalc input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.block_quadraticcalc input[type="submit"] {
+    background: #2b8acf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.block_quadraticcalc input[type="submit"]:hover {
+    background: #206ca6;
+}
+
+.history-button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-history {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-history:hover {
+    background-color: #388e3c;
+}
+
+.block_quadraticcalc table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.block_quadraticcalc th, .block_quadraticcalc td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.block_quadraticcalc th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.block_quadraticcalc .solution {
+    background-color: #eef7ff;
+    border-left: 4px solid #2b8acf;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #222;
+}
+
+.block_quadraticcalc .no-history {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    margin: 2rem 0;
+}

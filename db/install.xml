@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/quadraticcalc/db" VERSION="2025072000" COMMENT="Структура БД для блока квадратного уравнения" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+    <TABLES>
+        <TABLE NAME="block_quadraticcalc_history" COMMENT="История решений квадратных уравнений">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" />
+                <FIELD NAME="userid" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" />
+                <FIELD NAME="a" TYPE="float" NOTNULL="true" />
+                <FIELD NAME="b" TYPE="float" NOTNULL="true" />
+                <FIELD NAME="c" TYPE="float" NOTNULL="true" />
+                <FIELD NAME="x1" TYPE="float" NOTNULL="false" />
+                <FIELD NAME="x2" TYPE="float" NOTNULL="false" />
+                <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" />
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>
